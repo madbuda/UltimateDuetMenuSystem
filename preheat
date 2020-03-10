@@ -39,10 +39,10 @@ image R11 C0 L"imgs/hline.img"
 ; --------------- Preheat Bed ---------------
 image R14 C6 L"imgs/bed.img"
 button C23 W22 T"Off" A"M140 S0"
-button C46 W19 T"40" A"M140 S40"
-button C66 W19 T"50" A"M140 S50"
-button C86 W19 T"60" A"M140 S60"
-button C106 W19 T"70" V3 A"M140 S70"
+button C46 W19 T"50" A"M140 S50"
+button C66 W19 T"60" A"M140 S60"
+button C86 W19 T"75" A"M140 S75"
+button C106 W19 T"90" V3 A"M140 S90"
 
 
 ; --------------- Preheat Hotend ---------------

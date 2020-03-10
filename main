@@ -55,10 +55,12 @@ text T" / "
 value N0 W20
 text T"°C"
 
-; Fan Speed
-image R38 C25 L"imgs/fan.img"
-alter C52 N300 W25 H1
-button C80 F0 T"OFF" A"M106 P0 S0"
+; Chamber Temp
+image R38 C25 L"imgs/chamber.img"
+alter C40 N90 W20 H2
+text T" / "
+value N190 W20
+text T"°C"
 
 
 ; --------------- Scroll Button ---------------
